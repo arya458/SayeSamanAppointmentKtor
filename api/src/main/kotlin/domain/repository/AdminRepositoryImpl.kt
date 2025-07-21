@@ -1,9 +1,6 @@
 package com.sayesamanappointmentbookingsystem.domain.repository
 
-import com.sayesamanappointmentbookingsystem.data.db.table.AdminDAO
-import com.sayesamanappointmentbookingsystem.data.db.table.AdminTable
-import com.sayesamanappointmentbookingsystem.data.db.table.adminDAOToModel
-import com.sayesamanappointmentbookingsystem.data.db.table.suspendTransaction
+import com.sayesamanappointmentbookingsystem.data.db.table.*
 import com.sayesamanappointmentbookingsystem.data.repository.AdminRepository
 import com.sayesamanappointmentbookingsystem.data.model.AdminModel
 import org.jetbrains.exposed.sql.and
@@ -15,7 +12,7 @@ class AdminRepositoryImpl : AdminRepository {
                 .find { (AdminTable.aemail eq user) and (AdminTable.apassword eq pass) }
                 .limit(1) // Important: We expect at most one user for a unique login
                 .singleOrNull() // Get the single matching DAO or null if not found
-                ?.let(::adminDAOToModel) // Map the DAO to your model if found, otherwise result is null
+                ?.toModel() // Map the DAO to your model if found, otherwise result is null
         }
     }
 
@@ -35,7 +32,7 @@ class AdminRepositoryImpl : AdminRepository {
                 // However, if you were using plain Exposed SQL DSL (Table.update), you would commit the change.
 
                 // 3. Convert the updated DAO to your AdminModel and return it
-                adminDAOToModel(dao)
+                dao.toModel()
             }
             // 4. If adminDao is null (no user found or old password didn't match), the 'let' block is skipped,
             // and 'null' will be implicitly returned.

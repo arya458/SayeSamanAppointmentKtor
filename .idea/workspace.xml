@@ -4,36 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc18386-b052-43eb-845b-5c3643322fef" name="Changes" comment="making backend">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/kotlin/Application.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/data/db/table/CoworkerModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/kotlin/data/db/table/CoworkerModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/DatabaseFactory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/model/AdminModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/model/AppointmentModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/model/ScheduleModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/model/SpecialtiesModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/model/WebUserModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/model/WorkerModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/model/coworker/CoworkerModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/model/coworker/CoworkerShowModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/repository/AdminRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/repository/AppointmentRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/repository/CoworkerRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/repository/ScheduleRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/repository/SpecialtiesRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/repository/WebUserRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/database/repository/WorkerRepository.kt" beforeDir="false" />
+    <list default="true" id="4fc18386-b052-43eb-845b-5c3643322fef" name="Changes" comment="adding sql and json">
       <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/domain/repository/AdminRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/kotlin/domain/repository/AdminRepositoryImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/domain/repository/AppointmentRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/kotlin/domain/repository/AppointmentRepositoryImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/domain/repository/CoworkerRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/kotlin/domain/repository/CoworkerRepositoryImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/domain/repository/ScheduleRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/kotlin/domain/repository/ScheduleRepositoryImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/kotlin/domain/repository/WorkerRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/kotlin/domain/repository/WorkerRepositoryImpl.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +186,7 @@
       <workItem from="1753088624774" duration="607000" />
       <workItem from="1753089280842" duration="282000" />
       <workItem from="1753089572035" duration="8055000" />
-      <workItem from="1753098982851" duration="3452000" />
+      <workItem from="1753098982851" duration="4217000" />
     </task>
     <task id="LOCAL-00001" summary="making backend">
       <option name="closed" value="true" />
@@ -240,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753089170174</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding sql and json">
+      <option name="closed" value="true" />
+      <created>1753103127858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753103127858</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +231,8 @@
       <path value="$PROJECT_DIR$/api" />
     </ignored-roots>
     <MESSAGE value="making backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="making backend" />
+    <MESSAGE value="adding sql and json" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding sql and json" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

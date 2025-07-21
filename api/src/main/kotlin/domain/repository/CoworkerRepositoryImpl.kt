@@ -25,11 +25,11 @@ class CoworkerRepositoryImpl : CoworkerRepository {
         TODO("Not yet implemented")
     }
 
-    override fun login(user: String, pass: String) {
+    override fun login(user: String, pass: String): Boolean {
         TODO("Not yet implemented")
     }
 
-    override fun changePass(user: String, pass: String, againPass: String) {
+    override fun changePass(user: String, pass: String, againPass: String): Boolean {
         TODO("Not yet implemented")
     }
 
