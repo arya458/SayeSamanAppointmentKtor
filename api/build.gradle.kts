@@ -19,6 +19,9 @@ repositories {
 }
 
 dependencies {
+    implementation("io.ktor:ktor-server-content-negotiation")
+    implementation("io.ktor:ktor-serialization-kotlinx-json")
+    implementation("io.ktor:ktor-server-status-pages")
     implementation("io.ktor:ktor-server-core-jvm")
     implementation("io.ktor:ktor-server-netty")
     implementation("ch.qos.logback:logback-classic:$logback_version")
@@ -31,8 +34,10 @@ dependencies {
     implementation("org.jetbrains.exposed:exposed-core:0.38.2")
     implementation("org.jetbrains.exposed:exposed-dao:0.38.2")
     implementation("org.jetbrains.exposed:exposed-jdbc:0.38.2")
+    implementation("org.jetbrains.exposed:exposed-kotlin-datetime:0.38.2")
     implementation("mysql:mysql-connector-java:8.0.33") // or a more recent version
     implementation("com.zaxxer:HikariCP:5.0.1") // Optional, for connection pooling
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.0") // Or the latest stable version
 
 }

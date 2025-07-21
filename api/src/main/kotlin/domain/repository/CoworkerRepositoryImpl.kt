@@ -1,8 +1,8 @@
 package com.sayesamanappointmentbookingsystem.domain.repository
 
-import com.sayesamanappointmentbookingsystem.database.model.coworker.CoworkerModel
+import com.sayesamanappointmentbookingsystem.data.model.CoworkerModel
 import com.sayesamanappointmentbookingsystem.database.model.coworker.CoworkerShowModel
-import com.sayesamanappointmentbookingsystem.database.repository.CoworkerRepository
+import com.sayesamanappointmentbookingsystem.data.repository.CoworkerRepository
 
 class CoworkerRepositoryImpl : CoworkerRepository {
     override fun add(item: CoworkerModel): Boolean {

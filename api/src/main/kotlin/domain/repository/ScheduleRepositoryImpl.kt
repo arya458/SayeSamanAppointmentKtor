@@ -1,6 +1,6 @@
 package com.sayesamanappointmentbookingsystem.domain.repository
 
-import com.sayesamanappointmentbookingsystem.database.model.ScheduleModel
+import com.sayesamanappointmentbookingsystem.data.model.ScheduleModel
 import com.sayesamanappointmentbookingsystem.database.repository.ScheduleRepository
 
 class ScheduleRepositoryImpl : ScheduleRepository {

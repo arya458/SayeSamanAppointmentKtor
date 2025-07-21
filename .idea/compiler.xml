@@ -2,6 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="api" target="22" />
+      <module name="api.main" target="22" />
+      <module name="api.test" target="22" />
       <module name="BackEnd.main" target="11" />
       <module name="BackEnd.test" target="11" />
     </bytecodeTargetLevel>

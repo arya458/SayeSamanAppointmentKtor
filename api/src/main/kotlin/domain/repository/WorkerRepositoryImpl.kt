@@ -1,7 +1,7 @@
 package com.sayesamanappointmentbookingsystem.domain.repository
 
 import com.sayesamanappointmentbookingsystem.database.model.WorkerModel
-import com.sayesamanappointmentbookingsystem.database.repository.WorkerRepository
+import com.sayesamanappointmentbookingsystem.data.repository.WorkerRepository
 
 class WorkerRepositoryImpl: WorkerRepository {
     override fun add(item: WorkerModel): Boolean {
